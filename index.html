@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name Here</title>
+  <title>Devin Gilson</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,30 +25,44 @@
       <h2>About Me</h2>
       <!-- TODO: Replace with 2-3 sentences about yourself -->
       <!-- e.g., include your name, your program/year, and what you are interested in -->
+       Recent CS and Physics graduate with interests in backend and systems level developmenet. With aspirations of
+       working on or developing an Operating System. Outside of developing, I spend my time outdoors backpacking, climbing, and road cycling.
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-
       <!-- Example project entry structure: copy, fill in, and add at least 2:
       <div class="project">
         <h3>Project Name</h3>
         <p>What the project does, the technologies used, and what you learned.</p>
       </div>
       -->
+       <div class="project">
+        <h3>GPU Pressure Monitor</h3>
+        <p>Built a Linux kernel-level GPU memory pressure monitoring daemon in C that attaches eBPF probes to the NVIDIA
+kernel driver and CUDA runtime simultaneously, capturing page migration events, driver communication overhead,
+and memory allocation patterns per process with zero application modification.</p>
+different system architecture (ARM, x86).</p>
+      </div>
 
-      <!-- TODO: Add at least 2 project entries using the structure above -->
+      <div class="project">
+        <h3>Kernel-Level Messaging System</h3>
+        <p>Developed and implemented custom Linux syscalls that enable users to send messages to one another through the
+kernel utilizing a kernel memory allocation and memory safety techniques. Modified the Linux kernel by adding new system calls, updating syscall tables and ensuring compatibility across
+different system architecture (ARM, x86).</p>
+      </div>
+
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul>
         <!-- Example skill - TODO: replace -->
+        <li>C</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>Python</li>
         <li>HTML</li>
-
-        <!-- TODO: Add a second skill here -->
-        <!-- TODO: Add a third skill here -->
-        <!-- TODO: ... -->
       </ul>
     </section>
 
@@ -56,7 +70,7 @@
       <h2>Contact</h2>
       <!-- TODO: Replace href="#" with a real link (e.g., mailto:you@example.com or your LinkedIn URL) -->
       <!-- TODO: Replace the link text with something descriptive, e.g. "Email me" or "LinkedIn" -->
-      <p><a href="#">Contact me</a></p>
+      <p><a href="https://www.linkedin.com/in/devin-gilson-785496250/">LinkedIn</a></p>
     </section>
 
   </main>
